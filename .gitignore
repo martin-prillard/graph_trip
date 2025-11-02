@@ -1,4 +1,4 @@
 cache
 graph_trip.egg-info
 .venv
-*/*.ipynb_checkpoints/
+.ipynb_checkpoints
