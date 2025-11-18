@@ -3,3 +3,11 @@ graph_trip.egg-info
 .venv
 .ipynb_checkpoints
 .DS_Store
+logs.logs
+*.csv
+*.pkl
+*.pt
+*.pth
+*.edgelist
+*/data/*
+*.log

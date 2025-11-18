@@ -5,7 +5,7 @@ description = "TD notebook on BFS, DFS and shortest path algorithms with Paris r
 requires-python = ">=3.11"
 dependencies = [
     "osmnx>=1.6.0",
-    "networkx>=3.0",
+    "networkx>=2.5,<2.7",
     "plotly>=5.0.0",
     "matplotlib>=3.7.0",
     "numpy>=1.24.0",
@@ -13,7 +13,11 @@ dependencies = [
     "geopandas>=0.13.0",
     "jupyterlab",
     "streamlit>=1.28.0",
-    "scikit-learn>=1.7.2",
-    "node2vec>=0.5.0",
+    "scikit-learn>=1.4.0",
     "opentsne>=1.0.4",
+    "pandas<=1.3.5",
+    "umap-learn>=0.5.0",
+    "karateclub>=1.3.0",
+    "pycaret>=3.3.0",
+    "tqdm>=4.0.0",
 ]
